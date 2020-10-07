@@ -5,11 +5,11 @@
 **/
 
 [...temp1.children].forEach((child,idx) => { 
-let elemTiming = 100;
+let elemTiming = 60;
 child.animate([
   // keyframes
-  { opacity: 0 }, 
-  { opacity: 1 }
+  { opacity: 0, transform: 'translateY(0px)' }, 
+  { opacity: 1, transform: 'translateY(-150px)' }
 ], { 
   // timing options
   duration: elemTiming,
