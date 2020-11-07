@@ -17,3 +17,10 @@ child.animate([
   iterations: 1,
   fill: "both"
 })})
+
+
+/**
+ this animation will smoothly scroll through an element's children, giving each element focus for 3 seconds
+**/
+
+[...temp1.children].forEach((child,idx) => {setTimeout(() => {child.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})}, idx*3000) })
