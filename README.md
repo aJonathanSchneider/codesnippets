@@ -9,6 +9,7 @@ if you have excel data with start and end dates and item groups, and you want to
 ### googleFindInSites.js
 
 if you need to do many google searches but only on a limited number of sites, these functions can generate search-links
+Here's a video showing how to use it: https://youtu.be/nW6GGYhr0fA
 
 ### htmlTemp1ChildrenAnimations.js
 
